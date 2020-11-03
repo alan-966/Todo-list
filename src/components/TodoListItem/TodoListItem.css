@@ -1,0 +1,30 @@
+.todolistitem
+{
+	vertical-align: middle;
+}
+
+.todolistitemlabel
+{
+	margin-left: 1.25rem;
+	line-height: 35px;
+	cursor: pointer;
+	user-select: none;
+}
+
+.todolistitem.done .todolistitemlabel
+{
+	text-decoration: line-through;
+}
+
+.todolistitem.important .todolistitemlabel
+{
+	font-weight: bold;
+	color: steelblue;
+}
+
+.todolistitem .btn
+{
+	margin-left: .5rem;
+	float: right;
+}
+

@@ -1,0 +1,15 @@
+.additem
+{
+	margin-top: 10px;
+}
+
+.additem .btn
+{
+	width: 150px;
+	height: auto;
+}
+
+.additem input
+{
+	margin-right: 5px;
+}
